@@ -70,11 +70,7 @@ public class MyArrayList <T> {
             replacement[i + myArrayList.size()] = this.get(i);
         }
         setInternalArray(replacement);
-
-
-
     }
-
 
     public T get(int index) {
         return getInternalArray()[index];
@@ -124,5 +120,6 @@ public class MyArrayList <T> {
         }
         return false;
     }
+
 
 }
